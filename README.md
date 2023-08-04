@@ -1,71 +1,59 @@
-# Getting Started with Create React App
+![BuscaCEP](https://raw.githubusercontent.com/tiago-mends/Busca-CEP/main/banner.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Busca CEP
 
-## Available Scripts
+[![Badge com status do Build](https://img.shields.io/badge/build-concluded-brightgreen)](https://github.com/tiago-mends/Busca-CEP/)
+[![Licença](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Javascript](https://img.shields.io/badge/reactjs-blue?logo=react)](https://github.com/tiago-mends/Busca-CEP/)
 
-In the project directory, you can run:
+Este projeto é uma aplicação web e mobile desenvolvida em React.js, que permite aos usuários pesquisarem informações de CEP. A aplicação utiliza a API pública [ViaCEP](https://viacep.com.br/) para buscar e exibir os detalhes associados a um CEP específico, como endereço, bairro, cidade e estado.
 
-### `npm start`
+[Demonstração](https://busca-cep-six-nu.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Índice
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Visão Geral](#visão-geral)
+- [Instalação](#instalação)
+- [Funcionalidades](#funcionalidades)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-### `npm test`
+## Visão Geral
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A Busca de CEP é uma solução prática e útil para quem precisa obter informações detalhadas sobre um CEP em questão. A interface é simples e intuitiva, permitindo que os usuários digitem um CEP válido e obtenham instantaneamente os dados correspondentes.
 
-### `npm run build`
+## Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório para sua máquina local.
+2. ```git clone https://github.com/tiago-mends/Busca-CEP.git```
+3. Acesse o diretório do projeto.
+4. ```cd busca-cep```
+5. Instale as dependências.
+6. ```npm install```
+7. Inicie o projeto.
+8. ```npm run start```
+9. O projeto estará disponível em `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Pesquisa de CEP: Os usuários podem digitar um CEP válido no campo de pesquisa e, ao pressionar o botão "Buscar", os detalhes do endereço associado serão exibidos.
+- Validação de CEP: Antes de fazer a chamada à API, o sistema verifica se o CEP informado está no formato correto.
+- Exibição de Resultados: Após a busca ser concluída com sucesso, os detalhes do endereço, como rua, bairro, cidade e estado, são exibidos na tela.
+- Versão Web e Mobile: O projeto é responsivo e funciona tanto em navegadores de desktop quanto em dispositivos móveis, garantindo uma experiência consistente para todos os usuários.
 
-### `npm run eject`
+## Contribuição
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests para corrigir bugs, adicionar recursos ou melhorar a interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este projeto está licenciado sob a [Licença MIT](https://github.com/tiago-mends/Busca-CEP/blob/main/LICENSE.md). Sinta-se livre para usá-lo e modificá-lo de acordo com suas necessidades.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Busca-CEP
+##
+<center>Feito com ❤️ por Tiago Mendes</center>
